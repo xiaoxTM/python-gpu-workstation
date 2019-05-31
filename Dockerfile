@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
 RUN python3 -m pip install -U pip && \
     pip3 install --no-cache-dir numpy scipy matplotlib graphviz pydot h5py \
     scikit-image sklearn pandas networkx tensorflow-gpu \
- && pip3 install --upgrade git+git://github.com/fchollet/keras.git \
+ && pip3 install --upgrade git+git://github.com/fchollet/keras.git
